@@ -1,0 +1,21 @@
+{
+   "scope": ["slang"],
+   "rules": [
+      {
+         "pattern": "\\b(function|end|begin|end|if|var|const)\\b",
+         "color": "#E8E466",
+         "description": "Keywords for control structures and definitions",
+         "bold": true,
+         "priority": 2
+      },
+      {
+         "pattern": "(?<=\\bfunction\\s)\\w+",
+         "color": "#3a92ef",
+         "description": "Function name",
+         "priority": 3
+      }
+
+   ]
+
+
+}
